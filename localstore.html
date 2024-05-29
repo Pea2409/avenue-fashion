@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/localstore.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="container">
+          <div class="row list-top">
+            <div class="col-8 top-bar-item">
+              <span>Currency : GBP</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="col-1 top-bar-sign top-bar-item text-center">
+              <span>Register</span>
+            </div>
+            <div class="col-1 top-bar-sign top-bar-item text-start">
+              <span>Sign In</span>
+            </div>
+            <div class="top-bar-cart col-2 top-bar-item text-center">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Empty</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="nav-logo">
+          <a href="#">
+            <p class="logo-lg"><span>AVENUE </span>FASHION</p>
+            <p class="logo-mini"><span>AVE </span></p>
+          </a>
+        </div>
+        <div class="nav-bar">
+          <div id="list" class="list-nav">
+            <div class="nav-item">
+              <span>mens</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>womens</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>the brand</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>local stores</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>look book</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item nav-account">
+              <span>Register</span>
+            </div>
+            <div class="nav-item nav-account">
+              <span>Sign In</span>
+            </div>
+          </div>
+          <form class="nav-search">
+            <div class="search-form">
+              <input
+                type="search"
+                placeholder="Search..."
+                class="search-form form-control search-input"
+              />
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+          </form>
+          <div id="showListButton" class="show-bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="intro">
+        <img
+          class="w-100"
+          src="./assets/imgs/localstore/intro.png"
+          alt="Intro"
+        />
+        <div class="intro-title">
+          <h2 class="title-name">local <span>store</span></h2>
+          <h4 class="title-login">find a store near you</h4>
+        </div>
+      </div>
+      <div class="locations">
+        <div class="list-locations">
+          <div class="container">
+            <div class="row">
+              <div class="location-item col-lg-4 col-sm-12">
+                <h4 class="location-name">london</h4>
+                <p class="location-address">
+                  180-182 Regent Street, London, W1B 5BT
+                </p>
+                <span class="local-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+                  Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec
+                  tempor odio. Fusce posuere nunc iaculis ligula viverra
+                  iaculis. Aliquam erat volutpat.
+                </span>
+                <div class="location-btn">
+                  <button class="btn">VIEW DETAILS</button>
+                </div>
+              </div>
+              <div class="location-item col-lg-4 col-sm-12">
+                <h4 class="location-name">new york</h4>
+                <p class="location-address">
+                  109 Columbus Circle, New York, NY 10023
+                </p>
+                <span class="local-desc">
+                  Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
+                  Aliquam egestas, sem quis condimentum venenatis, erat leo
+                  fermentum dolor, non sollicitudin massa mi eu nibh. Nullam
+                  vitae aliquam dui, non sodales nisl.
+                </span>
+                <div class="location-btn">
+                  <button class="btn">VIEW DETAILS</button>
+                </div>
+              </div>
+              <div class="location-item col-lg-4 col-sm-12">
+                <h4 class="location-name">paris</h4>
+                <p class="location-address">
+                  2133 Rue Saint-Honoré, 75001 Paris
+                </p>
+                <span class="local-desc">
+                  Ut interdum fermentum blandit. Donec nec lacus egetit mi
+                  rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor.
+                  Vestibulum ante ipsum primis in faucibus orcip luctus et
+                  ultrices posuere cubilia curae cras ligula.
+                </span>
+                <div class="location-btn">
+                  <button class="btn">VIEW DETAILS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="location-details">
+          <div class="row">
+            <div class="col-lg-8 col-sm-12">
+              <div class="detail-img">
+                <img
+                  class="w-100"
+                  src="./assets/imgs/localstore/map.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <article class="detail-info">
+                <h4 class="location-name">LONDON</h4>
+                <p class="location-address">
+                  180-182 Regent Street, London, W1B 5BT
+                </p>
+                <span class="local-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+                  Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec
+                  tempor odio.
+                </span>
+                <div class="local-info">
+                  <p>
+                    <i class="icon-item fa-solid fa-location-dot"></i>180-182
+                    Regent Street, London, W1B 5BT
+                  </p>
+                  <p><i class="icon-item fa-solid fa-phone"></i>0123-456-789</p>
+                  <p>
+                    <i class="icon-item fa-solid fa-link"></i
+                    >www.yourwebsite.com
+                  </p>
+                  <p>
+                    <i class="icon-item fa-regular fa-envelope"></i
+                    >support@yourwebsite.com
+                  </p>
+                  <p>
+                    <i class="icon-item fa-regular fa-clock"></i>Monday-Friday:
+                    9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm
+                  </p>
+                </div>
+                <ul class="detail-info-social d-flex">
+                  <li>
+                    <i class="social-icon fa-brands fa-facebook"></i>
+                  </li>
+                  <li>
+                    <i class="social-icon fa-brands fa-square-twitter"></i>
+                  </li>
+                  <li>
+                    <i class="social-icon fa-brands fa-square-instagram"></i>
+                  </li>
+                  <li>
+                    <i class="social-icon fa-brands fa-pinterest"></i>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <footer class="footer">
+      <div class="container">
+        <div class="row m-auto">
+          <ul class="footer-info col-lg-2 col-sm-6">
+            <li class="footer-info-item">
+              <b>INFORMATION</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">The brand</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Local stores</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Customer service</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Privacy & cookies</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Site map</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-2 col-sm-6">
+            <li class="footer-info-item">
+              <b>WHY BUY FROM US</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Shipping & returns</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Secure shopping</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Testimonials</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Award winning</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Ethical trading</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-3 col-sm-6">
+            <li class="footer-info-item">
+              <b>YOUR ACCOUNT</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Sign in</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Register</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">View cart</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">View your lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Track an order</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Update information</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-2 col-sm-6">
+            <li class="footer-info-item">
+              <b>LOOKBOOK</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Lastest posts</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Men's lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Women's lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Lookbooks RSS feed</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">View your lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Delete your lookbook</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-3 col-sm-12">
+            <li class="footer-info-item">
+              <b>CONTACT DETAILS</b>
+            </li>
+            <li class="footer-info-item">
+              <a href=""
+                >Head Office: Avenue Fashion 180-182 Regent Street, London.</a
+              >
+            </li>
+            <li class="footer-info-item">
+              <a href="">Telephone: 0123-456-789</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Email: support@yourwebsite.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row footer-banner text-center">
+          <div class="col-lg-6 col-sm-12">
+            <div class="footer-banner-award">
+              <div class="award-winner">
+                <p>AWARD WINNER</p>
+              </div>
+              <div>
+                <p>FASHION AWARDS 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <ul class="footer-banner-social d-flex text-center">
+              <li>
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-pinterest-p"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row m-auto footer-copyright">
+        <div class="footer-item footer-year col-lg-7 col-sm-12">
+          <span>&copy;2016 Avenue Fashion&trade;</span>
+        </div>
+        <div class="footer-item col-lg-3 col-sm-12">
+          <span>Design by RobbyDesigns.com</span>
+        </div>
+        <div class="footer-item col-lg-2 col-sm-12">
+          <span>Dev by Loremipsum.com</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/signup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="container">
+          <div class="row list-top">
+            <div class="col-8 top-bar-item">
+              <span>Currency : GBP</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="col-1 top-bar-sign top-bar-item text-center">
+              <span>Register</span>
+            </div>
+            <div class="col-1 top-bar-sign top-bar-item text-start">
+              <span>Sign In</span>
+            </div>
+            <div class="top-bar-cart col-2 top-bar-item text-center">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Empty</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="nav-logo">
+          <a href="#">
+            <p class="logo-lg"><span>AVENUE </span>FASHION</p>
+            <p class="logo-mini"><span>AVE </span></p>
+          </a>
+        </div>
+        <div class="nav-bar">
+          <div id="list" class="list-nav">
+            <div class="nav-item">
+              <span>mens</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>womens</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>the brand</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>local stores</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item">
+              <span>look book</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-item nav-account">
+              <span>Register</span>
+            </div>
+            <div class="nav-item nav-account">
+              <span>Sign In</span>
+            </div>
+          </div>
+          <form class="nav-search">
+            <div class="search-form">
+              <input
+                type="search"
+                placeholder="Search..."
+                class="search-form form-control search-input"
+              />
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+          </form>
+          <div id="showListButton" class="show-bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="intro">
+        <img class="w-100" src="./assets/imgs/signup/intro.png" alt="Intro" />
+        <div class="intro-title">
+          <h2 class="title-name">WELCOME <span>TO AVE</span></h2>
+          <h4 class="title-login">SIGN IN OR REGISTER</h4>
+        </div>
+      </div>
+      <div class="container">
+        <div class="account">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="sign-up">
+                <h4 class="title">SIGN IN</h4>
+                <form>
+                  <div class="sign-up-input mb-4 mt-4">
+                    <input type="email" placeholder="Your Email" required />
+                  </div>
+                  <div class="sign-up-input mb-4 mt-4">
+                    <input
+                      type="password"
+                      placeholder="Your Password"
+                      required
+                    />
+                  </div>
+
+                  <div class="sign-up-btn d-flex">
+                    <div class="sign-up-name">
+                      <button class="btn btn-left">SIGN IN</button>
+                    </div>
+                    <div class="sign-up-name">
+                      <button class="btn btn-right">
+                        Forgot your password
+                        <i class="fa-solid fa-right-long"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="register">
+                <h4 class="title">REGISTER</h4>
+                <form>
+                  <div class="sign-up-input mb-4 mt-4">
+                    <input type="email" placeholder="Your Email" required />
+                  </div>
+                  <div class="sign-up-input mb-4 mt-4">
+                    <input
+                      type="password"
+                      placeholder="Your Password"
+                      required
+                    />
+                  </div>
+                  <div class="sign-up-input mb-4 mt-4">
+                    <input
+                      type="password"
+                      placeholder="Confirm Password"
+                      required
+                    />
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label">
+                      Sign up for exclusive updates, discounts, new arrivals,
+                      contests, and more!
+                    </label>
+                  </div>
+
+                  <div class="form-btn d-flex mt-4">
+                    <div class="form-btn-create">
+                      <button class="btn button-create">CREATE ACOUNT</button>
+                    </div>
+                    <div class="form-btn-policy">
+                      <span>
+                        By clicking ‘Create Account’, you agree to our
+                        <a href=""
+                          >Privacy Policy
+                          <i class="fa-solid fa-right-long"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <footer class="footer">
+      <div class="container">
+        <div class="row m-auto">
+          <ul class="footer-info col-lg-2 col-sm-6">
+            <li class="footer-info-item">
+              <b>INFORMATION</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">The brand</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Local stores</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Customer service</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Privacy & cookies</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Site map</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-2 col-sm-6">
+            <li class="footer-info-item">
+              <b>WHY BUY FROM US</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Shipping & returns</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Secure shopping</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Testimonials</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Award winning</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Ethical trading</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-3 col-sm-6">
+            <li class="footer-info-item">
+              <b>YOUR ACCOUNT</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Sign in</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Register</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">View cart</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">View your lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Track an order</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Update information</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-2 col-sm-6">
+            <li class="footer-info-item">
+              <b>LOOKBOOK</b>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Lastest posts</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Men's lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Women's lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Lookbooks RSS feed</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">View your lookbook</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Delete your lookbook</a>
+            </li>
+          </ul>
+          <ul class="footer-info col-lg-3 col-sm-12">
+            <li class="footer-info-item">
+              <b>CONTACT DETAILS</b>
+            </li>
+            <li class="footer-info-item">
+              <a href=""
+                >Head Office: Avenue Fashion 180-182 Regent Street, London.</a
+              >
+            </li>
+            <li class="footer-info-item">
+              <a href="">Telephone: 0123-456-789</a>
+            </li>
+            <li class="footer-info-item">
+              <a href="">Email: support@yourwebsite.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row footer-banner text-center">
+          <div class="col-lg-6 col-sm-12">
+            <div class="footer-banner-award">
+              <div class="award-winner">
+                <p>AWARD WINNER</p>
+              </div>
+              <div>
+                <p>FASHION AWARDS 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <ul class="footer-banner-social d-flex text-center">
+              <li>
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-pinterest"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row m-auto footer-copyright">
+        <div class="footer-item footer-year col-lg-7 col-sm-12">
+          <span>&copy;2016 Avenue Fashion&trade;</span>
+        </div>
+        <div class="footer-item col-lg-3 col-sm-12">
+          <span>Design by RobbyDesigns.com</span>
+        </div>
+        <div class="footer-item col-lg-2 col-sm-12">
+          <span>Dev by Loremipsum.com</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/home.js"></script>
+  </body>
+</html>

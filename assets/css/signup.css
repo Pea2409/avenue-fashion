@@ -1,0 +1,109 @@
+.intro {
+  position: relative;
+}
+.intro-title {
+  position: absolute;
+  min-width: 350px;
+  text-align: center;
+  top: 80px;
+  left: 490px;
+  color: #ffff;
+}
+.title-name {
+  color: #ffff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title-name span {
+  font-weight: 400;
+}
+.title-login {
+  font-size: 20px;
+}
+.account {
+  margin-top: 50px;
+  color: #575153;
+  margin-bottom: 100px;
+}
+.sign-up-title {
+  font-size: 18px;
+}
+.sign-up-input {
+  position: relative;
+}
+.sign-up-input input {
+  padding: 10px 16px;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  outline: none;
+  font-size: 14px;
+  color: #989898;
+}
+.sign-up-btn {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sign-up-name {
+  padding: 8px 0;
+}
+.sign-up-name .btn-left {
+  padding: 10px 20px;
+  background-color: #00c8c8;
+  color: #ffff;
+  border-radius: 0;
+}
+.sign-up-name .btn-right {
+  color: #00c8c8;
+}
+.form-btn-create {
+  border: 1px solid #737373;
+  min-width: 180px;
+  max-height: 46px;
+  text-align: center;
+}
+.form-btn-create .button-create {
+  margin-top: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.form-btn-policy {
+  margin-left: 100px;
+  text-align: right;
+}
+
+/* Mobile & tablet width : 1024px */
+@media only screen and (max-width: 63.9375em) {
+  .sign-up {
+    margin-bottom: 50px;
+  }
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  .intro img {
+    min-height: 200px;
+  }
+  .intro-title {
+    top: 54px;
+    left: 12px;
+  }
+  .form-btn {
+    flex-wrap: wrap;
+  }
+  .form-btn-policy {
+    margin: 10px 0;
+    /* margin-top: 10px; */
+    text-align: left;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .intro img {
+    min-height: 250px;
+  }
+  .intro-title {
+    left: 220px;
+  }
+}
